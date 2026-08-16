@@ -1,0 +1,14 @@
+{
+  "name": "troys-brewery-platform",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-project.mjs",
+    "test:unit": "node --test tests/*.test.js",
+    "test": "npm run check && npm run test:unit"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
